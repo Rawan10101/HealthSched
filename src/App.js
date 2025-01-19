@@ -18,7 +18,6 @@ function App() {
       navigate('/doctors'); // Redirect to the doctor list page
     }
   };
-
   return (
     <div className="HealthSched">
       <header className="App-header">
@@ -37,7 +36,6 @@ function App() {
                   required
                 />
               </div>
-
               <div className="form-group">
                 <label htmlFor="username">Username:</label>
                 <input
@@ -49,7 +47,6 @@ function App() {
                   required
                 />
               </div>
-
               <button type="submit" className="login-button">Login</button>
             </form>
           </>
